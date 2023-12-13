@@ -52,8 +52,11 @@ span{
     color: hsl(158, 36%, 37%);
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 480px) {
 .container{
     flex-direction: column;
+}
+.prod-image-desk{
+    width: 24rem;
 }
 }
